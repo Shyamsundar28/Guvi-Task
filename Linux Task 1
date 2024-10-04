@@ -1,0 +1,3 @@
+Create a directory called ""my_folder"", navigate into it, and create a file named ""my_file.txt"" with some text. Then, create another file named ""another_file.txt"" with some text. Concatenate the content of ""another_file.txt"" to ""my_file.txt"" and display the updated content. Finally, \
+
+To create the directory we need to use mkdir my_folder it will use to create the new director and if we need to get in to it need to use cd my_floder/ this command will user to enter in to the director and for text file we need to use touch my_file this will create the .txt file 
