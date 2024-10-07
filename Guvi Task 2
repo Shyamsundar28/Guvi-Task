@@ -1,0 +1,15 @@
+Qust 1 Create a file with .txt extension (/home/demo.txt). Change the permission set of that file, so that any user can read it, group can read/write & owner can read/write/execute it.
+
+Ans : i used the cmd called chmod and there was 3 type of permission was there there was 
+u= user
+g= group
+o= other
+for changing the permision we need to use the cmd called chmod permission and another way was there to change the mode by digit 
+0   No Permission         --
+1   Execute permission    --X
+2   Write permission      -W-
+3   Exe + Write Perm     -WX
+4   Read Perm            R--
+5   Read + Exec Per      R-X
+6   Read + Write perm    RW-
+7   Read+Write+Exe      RWX
