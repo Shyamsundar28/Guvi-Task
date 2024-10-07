@@ -1,0 +1,9 @@
+Question 1 Create a directory called ""my_folder"", navigate into it, and create a file named ""my_file.txt"" with some text. Then, create another file named ""another_file.txt"" with some text. Concatenate the content of another_file.txt"" to ""my_file.txt"" and display the updated content. Finally, 
+Ans: To create the new directory we need to use the cmd Mkdir <directory name>. I created the directory name called my_folder_linux_T1
+      To create the new file we need to use cmd called touch <file name> .I created the file name called my_file
+      to create the some text in to the file to create the text we need to use the cmd called echo create the text > file name . so I create the texet like echo "hello team am shyam" >>my_file
+      to create the another file same touch cmd I used and creacted the with some txt with using the echo cmd 
+
+Question 2: Create 20 files with .txt extensions and rename the first 5 files to .yml extension and Print the latest created top 5 files among the total no of files".
+
+Ans: I used the cmd to creaste the mult file touch {1..20}file name and for rename i used the cmd called mv file name 
