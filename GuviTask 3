@@ -1,0 +1,8 @@
+Ques 1 : .Get me the IP address of a particular domain (guvi.in). How do I find my CPU/memory usage of my server?. Test the connectivity between 2 nodes?
+
+To find the Ip address for the particular domine need to use ping cmd or Host cmd or dig cmd  . I have use the Ping cmd and host cmd for the domine called www.amazon.com and the result is below
+to find the CPU usage we need to use top cmd or htop 
+
+Ques 2: I have deployed an application in guvi.com:9000, and logs show my app is running, but I’m unable to view the page. Check whether my port is open or not ?
+
+We can use the cmd called netsat -tunpl to check the port  or we can use the telnet cmd 
