@@ -1,0 +1,18 @@
+Create a shell script to print the HTTP error code of guvi.in & print, the success/failure message based on the error code response
+
+#!/bin/bash
+
+read host
+
+errorcode=$(curl -s -o /dev/null -w " %{http_code}" "$host")
+
+    echo "your code is $errorcode"
+
+if [ $errorcode -lt 300 ]; then
+        echo " your request was success"
+elif [ $errorcode -gt 300 ];then
+        echo " your request was failed"
+
+else
+     echo "good"
+fi
